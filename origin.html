@@ -1957,6 +1957,100 @@ function myFunction2() {
     </table>
     <BR><BR>
     <h1  style="font-size:27px; padding-left: 350px;">Attributes</h1>
+  <div class = "vanish">
+  	
+            <select id="Alignment" onchange="switch1()">
+                <option value="6" selected>Primary</option>
+                <option value="4">Secondary</option>
+                <option value="2">Tertiary</option>
+            </select><div id="totalPrice">Physical: 3 / 10</div>
+	<br><br>
+	<select id="Alignment2" onchange="switch2()">
+            <option value="6">Primary</option>
+            <option value="4" selected>Secondary</option>
+            <option value="2">Tertiary</option>
+        </select><div id="totalPrice2">Social: 3 / 8</div>
+	<br><br>
+	<select id="Alignment3" onchange="switch3()">
+            <option value="6">Primary</option>
+            <option value="4">Secondary</option>
+            <option value="2" selected>Tertiary</option></select>
+            <div id="totalPrice3">Mental: 3 / 6</div>
+<br><br>
+                <label >Strength</label>
+         
+                <label class='radiolabel'><input type="radio"  name="Strength" value="One" onclick="jumpStart(str)" checked/></label>
+                <label class='radiolabel'><input type="radio"  name="Strength" value="Two" onclick="jumpStart(str)" /></label>
+                <label class='radiolabel'><input type="radio"  name="Strength" value="Three" onclick="jumpStart(str)" /></label>
+                <label class='radiolabel'><input type="radio"  name="Strength" value="Four" onclick="jumpStart(str)" /></label>
+                <label class='radiolabel'><input type="radio"  name="Strength" value="Five" onclick="jumpStart(str)" /></label>
+
+        <br><br>   
+
+                <label >Charisma</label>
+           
+            <label class='radiolabel'><input type="radio"  name="Charisma" value="One" onclick="jumpStart(cha)" checked/></label>
+            <label class='radiolabel'><input type="radio"  name="Charisma" value="Two" onclick="jumpStart(cha)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Charisma" value="Three" onclick="jumpStart(cha)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Charisma" value="Four" onclick="jumpStart(cha)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Charisma" value="Five" onclick="jumpStart(cha)" /></label>
+
+    
+<br><br>
+                <label >Perception</label>
+            <label class='radiolabel'><input type="radio"  name="Perception" value="One" onclick="jumpStart(per)" checked/></label>
+            <label class='radiolabel'><input type="radio"  name="Perception" value="Two" onclick="jumpStart(per)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Perception" value="Three" onclick="jumpStart(per)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Perception" value="Four" onclick="jumpStart(per)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Perception" value="Five" onclick="jumpStart(per)" /></label>
+<br><br>
+                <label >Dexterity</label>
+            <label class='radiolabel'><input type="radio"  name="Dexterity" value="One" onclick="jumpStart(dex)" checked/></label>
+            <label class='radiolabel'><input type="radio"  name="Dexterity" value="Two" onclick="jumpStart(dex)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Dexterity" value="Three" onclick="jumpStart(dex)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Dexterity" value="Four" onclick="jumpStart(dex)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Dexterity" value="Five" onclick="jumpStart(dex)" /></label>
+<br><br>
+                <label >Manipulation</label>
+            <label class='radiolabel'><input type="radio"  name="Manipulation" value="One" onclick="jumpStart(man)" checked/></label>
+            <label class='radiolabel'><input type="radio"  name="Manipulation" value="Two" onclick="jumpStart(man)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Manipulation" value="Three" onclick="jumpStart(man)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Manipulation" value="Four" onclick="jumpStart(man)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Manipulation" value="Five" onclick="jumpStart(man)" /></label>
+
+    <br><br>
+
+                <label >Intelligence</label>
+            <label class='radiolabel'><input type="radio"  name="Intelligence" value="One" onclick="jumpStart(int)" checked/></label>
+            <label class='radiolabel'><input type="radio"  name="Intelligence" value="Two" onclick="jumpStart(int)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Intelligence" value="Three" onclick="jumpStart(int)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Intelligence" value="Four" onclick="jumpStart(int)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Intelligence" value="Five" onclick="jumpStart(int)" /></label>
+
+<br><br>
+                <label >Stamina</label>
+            <label class='radiolabel'><input type="radio"  name="Stamina" value="One" onclick="jumpStart(sta)" checked/></label>
+            <label class='radiolabel'><input type="radio"  name="Stamina" value="Two" onclick="jumpStart(sta)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Stamina" value="Three" onclick="jumpStart(sta)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Stamina" value="Four" onclick="jumpStart(sta)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Stamina" value="Five" onclick="jumpStart(sta)" /></label>
+<br><br>
+                <label >Appearance</label>
+            <label class='radiolabel'><input type="radio"  name="Appearance" value="One" onclick="jumpStart(app)" checked/></label>
+            <label class='radiolabel'><input type="radio"  name="Appearance" value="Two" onclick="jumpStart(app)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Appearance" value="Three" onclick="jumpStart(app)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Appearance" value="Four" onclick="jumpStart(app)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Appearance" value="Five" onclick="jumpStart(app)" /></label>
+       <br><br>
+                <label >Wits</label>
+            <label class='radiolabel'><input type="radio"  name="Wits" value="One" onclick="jumpStart(wit)" checked/></label>
+            <label class='radiolabel'><input type="radio"  name="Wits" value="Two" onclick="jumpStart(wit)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Wits" value="Three" onclick="jumpStart(wit)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Wits" value="Four" onclick="jumpStart(wit)" /></label>
+            <label class='radiolabel'><input type="radio"  name="Wits" value="Five" onclick="jumpStart(wit)" /></label>
+</div>
+    <br><br>
+<div class = "overflow">
     <br>
     <table>
         <tr><td style="width:105px">
@@ -2077,6 +2171,7 @@ function myFunction2() {
         </td>
         </tr>
     </table>
+    </div>
     <br><br>
     <h1  style="font-size:27px; padding-left: 350px;">Abilities</h1><br>
     <table>
